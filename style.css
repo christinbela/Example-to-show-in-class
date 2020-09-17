@@ -1,0 +1,176 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+
+
+
+body {
+    background-color: #fff;
+    font-family: "Roboto", sans-serif;
+    margin: 1rem;
+    padding: 3rem;
+    width: 100%;
+    
+    
+    
+}
+
+.container {
+    padding: 2rem;
+    margin: 4rem auto;
+    max-width: 100%;
+    width: 1400px;
+}
+
+
+nav #logo {
+    font-size: 2.5rem;
+    color: black;
+    font-weight: bold;
+    color: #00c2ff;
+    text-transform: uppercase;   
+}
+
+nav #logo:hover{
+    color: black;
+    cursor: pointer;
+  
+}
+
+.space{
+    margin: 2em;
+    padding: 1rem;
+}
+
+.caption{
+    text-align: center;
+    margin: auto;
+    width: 90%;
+    height: flex;
+}
+
+.caption img{
+    display: flex;
+    
+    
+
+}
+.grid { 
+    display: grid;
+    margin: 1rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 2rem;
+    align-items: center;
+    justify-items: center;
+    }
+    
+  .grid img {
+    border: .5px solid #ccc;
+    box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
+    max-width: 100%;
+  }
+
+  
+
+header {
+    background-image: url(./images/me.jpg);
+    background-size: cover;
+    background-position: center center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    min-height: calc(100vh - 102px);
+}
+
+.content {
+    font-size: 2rem;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+.content h1 {
+    color: #00c2ff;
+    margin-bottom: 0;
+    text-align: left;
+}
+
+.content p{
+    color: #ffffff;
+    margin-bottom: 0;
+    text-align: left;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.content p:hover{
+    color:#00c2ff;;
+    cursor: pointer;
+    }
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+nav .i .a:hover{
+    color: black;
+    cursor: pointer;
+  
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li a {
+    color: white;
+    padding: 1rem;
+    text-decoration: none;
+}
+
+
+.selected {
+    font-weight: bold;
+}
+
+.selected:hover{
+    color: #00c2ff;
+    cursor: pointer;
+}
+  
+
+.highlight {
+    background-color: #00c2ff;
+    color: white;
+    padding: 1rem;
+    text-decoration: none;
+}
+
+
+
+footer {
+    background-color: #000;
+    color: #fff;
+    padding: 1rem;
+}
+
+footer ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 0;
+}
+
+footer strong {
+    color: #00c2ff;
+}
+
+footer p {
+    margin: 0;
+}
+
